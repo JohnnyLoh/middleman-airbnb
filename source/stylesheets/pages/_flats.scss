@@ -1,0 +1,62 @@
+.glutter{
+  background: linear-gradient(to right, rgb(17, 67, 87), rgb(242, 148, 146));
+  margin: 0px;
+}
+
+.banner {
+  background-size: cover;
+  background-position: bottom;
+}
+
+.banner h2 {
+  text-align: center;
+  padding: 100px;
+  text-shadow: 0 0 5px black;
+}
+
+.header-flat-details {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    padding-left: 0;
+  }
+
+.header-flat-name h1{
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.header-flat-name p{
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.header-flat-owner {
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.header-flat p {
+    font-weight: normal;
+    font-size: 14px;
+    // color: $gray;
+    color: $c-two;
+    text-shadow: 0 0 2px black;
+}
+.header-flat h4 {
+  color: $c-three;
+  text-shadow: 0 0 2px black;
+}
+
+.img-circle {
+  width: 80px;
+  // height: 60;
+  border-radius: 50%;
+}
+
+.flat-description {
+  margin: 10px;
+}

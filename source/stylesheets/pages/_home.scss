@@ -1,7 +1,10 @@
 #home {
-  background-color: #D23333;
+  // background-color: #D23333; //
+  background-image: url("../../images/shanghai.jpg");
+  background-size: cover;
+  background-position: center;
   color: white;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -14,4 +17,17 @@
     font-weight: bold;
     font-size: 16px;
   }
+  .form-group {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+  .input-lg {
+    height: 53px;
+    padding: 10px 16px;
+    font-size: 23px;
+    line-height: 1.3333333;
+    border-radius: 2px;
+  }
 }
+

@@ -4,25 +4,27 @@
   align-items: center;
   justify-content: space-around;
   text-align: center;
-  background-image: linear-gradient(0deg, white 50%, #F4F4F4 50%);
+  background-image: linear-gradient(-225deg, #c7b7d22e 30%, #c06c8452 50%), url("https://picsum.photos/g/1200/600?image=14");
+  background-size: cover;
+  background-position: center;
   img {
     width: 150px;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
   }
   h1 {
     font-size: 30px;
     font-weight: bolder;
     margin-bottom: 30px;
     margin-top: 0px;
-    color: $c-one
+    color: $c-one;
   }
   h2 {
     font-size: 17px;
     font-weight: bold;
-    color: $c-two
+    color: $c-two;
   }
   a {
-    color: $c-three
+    color: $c-three;
     font-weight: bold;
     letter-spacing: -0.5px;
     font-size: 15px;
